@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.newsapp.MainActivity"
+    android:layout_margin="1dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showInNews"
+        android:layout_margin="10dp">
+    <ImageView
+        android:src="@drawable/india"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+     >
+    </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Indian News"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showUSNews"
+        android:layout_margin="10dp">
+        <ImageView
+            android:src="@drawable/usa"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="USA News"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showUKNews"
+        android:layout_margin="10dp">
+        <ImageView
+            android:src="@drawable/uk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UK News"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+</LinearLayout>
